@@ -1,0 +1,7 @@
+Bundle-Name: BackgroundTaskscheduler
+Bundle-SymbolicName: BackgroundTaskscheduler
+Bundle-Version: 1.0.0
+Export-Package: BackgroundTaskscheduler.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"

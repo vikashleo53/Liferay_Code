@@ -1,0 +1,10 @@
+Bundle-Name: csv_listner
+Bundle-SymbolicName: csv_listner
+Bundle-Version: 1.0.0
+Export-Package: csv_listner.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"
+		
+dependency: com.liferay.portal.background.task.api
+		

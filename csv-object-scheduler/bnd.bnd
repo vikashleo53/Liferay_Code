@@ -1,0 +1,7 @@
+Bundle-Name: Background-Job-API
+Bundle-SymbolicName: csv.object.scheduler
+Bundle-Version: 1.0.0
+Export-Package: csv.object.scheduler.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"

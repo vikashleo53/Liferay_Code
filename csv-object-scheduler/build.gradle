@@ -1,0 +1,10 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+
+	cssBuilder group: "com.liferay", name: "com.liferay.css.builder", version: "3.1.4"
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+    compileOnly group: "com.liferay", name: "com.liferay.object.api"
+	implementation group: 'org.apache.poi', name: 'poi', version: '3.15'
+	implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '3.15'
+	implementation group: 'org.apache.commons', name: 'commons-csv', version: '1.9.0'
+}
